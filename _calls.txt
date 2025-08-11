@@ -2,3 +2,6 @@
 
 source 01_basics\rdbms.sql
 
+#Tabellen erzeugen
+
+source 02_tables\01_tables.sql
