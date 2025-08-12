@@ -7,3 +7,5 @@ SOURCE 01_basics\rdbms.sql
 SOURCE 02_tables\01_tables.sql
 SOURCE 02_tables\02_tables.sql
 SOURCE 02_tables\03_tables.sql
+SOURCE 03_select\01_select.sql
+SOURCE 03_select\02_select.sql
