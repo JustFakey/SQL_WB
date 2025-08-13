@@ -2,10 +2,16 @@
 
 SOURCE 01_basics\rdbms.sql
 
+
+Verbindung herstellen:
+"C:\Users\RJAU129\.dbclient\dependency\mysql\mysql.exe" -h 172.104.236.185 -P 3306 -u remote_user -p"xAcb12#@rem0te" 
+
 #Tabellen erzeugen
 
 SOURCE 02_tables\01_tables.sql
 SOURCE 02_tables\02_tables.sql
 SOURCE 02_tables\03_tables.sql
 SOURCE 03_select\01_select.sql
+Call Datein
 SOURCE 03_select\02_select.sql
+SOURCE 03_select\03_select.sql

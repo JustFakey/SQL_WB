@@ -1,13 +1,19 @@
 -- Hauptthema "SELECT" _01.Select
 \! cls;
 
--- DB wechseln
+-- DB Löschen und dann neu Anlegen
 
 SHOW DATABASES;
 
-USE test;
+DROP DATABASE test;
+
+CREATE DATABASE test
+    CHARACTER SET utf8mb4
+    COLLATE utf8mb4_unicode_ci;
 
 DROP TABLE IF EXISTS test.contacts;
+
+-- Tabelle erstellen
 
 CREATE TABLE test.contacts (
     k_id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
@@ -19,6 +25,8 @@ CREATE TABLE test.contacts (
     k_state VARCHAR(50),
     k_city VARCHAR(100)
 );
+
+SHOW CREATE Table test.contacts;
 
 DESCRIBE test.contacts;
 
