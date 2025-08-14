@@ -7,8 +7,9 @@
 SHOW VARIABLES LIKE 'collation%';
 
 -- Vorbereitung
+DROP DATABASE languages;
 
-CREATE DATABASE languages
+CREATE DATABASE IF NOT EXISTS languages
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_unicode_ci;
 
